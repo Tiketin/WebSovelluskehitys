@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 7em;
+    font-weight: lighter;
+    margin: 0.2em;
+}
+img {
+    border: 2px solid cornflowerblue;
+}
+figcaption {
+    font-weight: bold;
+    margin: 1em;
+}
+ul {
+    list-style-type: none;
+    margin: 2em;
+    padding: 0;
+    width: 19em;
+    display: inline-block;
+}
+h2 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+li {
+    padding: 1.5em;
+}
+p {
+    font-style: italic;
+    margin: 0.1em;
+}
+#li1 {
+    background-color: lightsteelblue;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#li2 {
+    background-color: bisque;
+    border-bottom: 1px solid black;
+}
+#li3 {
+    background-color: lightcoral;
+    border-bottom: 1px solid black;
+}
