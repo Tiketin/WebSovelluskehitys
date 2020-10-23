@@ -1,0 +1,23 @@
+input[type="text"] {
+    color : blue;
+}
+input[type="submit"] {
+    font-weight : bold;
+}
+body {
+    font-family: sans-serif;
+    padding: 0.5em;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(78,77,87,1) 0%, rgba(106,106,116,1) 31%, rgba(233,233,233,1) 100%);
+}
+div {
+    padding: 0.2em;
+}
+fieldset {
+    width: 7em;
+    display: inline-block;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+}

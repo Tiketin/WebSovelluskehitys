@@ -19,20 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec6ee291-3e80-40ef-8cbb-922c27a60709" name="Default Changelist" comment="Nelosta tossa vähä alottelin">
-      <change afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/berries.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/berrystyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/boxstyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/columnstyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/homestyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/homapage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/boxmodel.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/boxmodel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/columns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/floatstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/floatstyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/targetstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/css/targetstyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/floating.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/floating.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/04 CSS3 and Bootstrap/game.html" afterDir="false" />
+    <list default="true" id="ec6ee291-3e80-40ef-8cbb-922c27a60709" name="Default Changelist" comment="Nelonen tehty">
+      <change afterPath="$PROJECT_DIR$/labs/05 HTML5 forms/aSampleForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/05 HTML5 forms/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/05 HTML5 forms/form_skel.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/05 HTML5 forms/form_skel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +77,8 @@
       <workItem from="1603179470796" duration="694000" />
       <workItem from="1603276327826" duration="186000" />
       <workItem from="1603276809813" duration="5320000" />
-      <workItem from="1603349441647" duration="8161000" />
+      <workItem from="1603349441647" duration="9001000" />
+      <workItem from="1603451302846" duration="4975000" />
     </task>
     <task id="LOCAL−00001" summary="Nelosta tossa vähä alottelin">
       <created>1603282097335</created>
@@ -94,7 +86,19 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1603282097335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Nelosta tossa vähä alottelin">
+      <created>1603357680736</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1603357680736</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Nelosta tossa vähä alottelin">
+      <created>1603357731820</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1603357731821</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,14 +133,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603276476709" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1603282125661">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1603357756589">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603282125661" />
-    <state x="-1920" y="360" width="1936" height="1127" key="dock-window-1" timestamp="1603355051779">
-      <screen x="-1920" y="360" width="1920" height="1040" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603357756589" />
+    <state x="2535" y="519" width="1616" height="947" maximized="true" key="dock-window-1" timestamp="1603454058510">
+      <screen x="2560" y="540" width="1600" height="860" />
     </state>
-    <state x="-1920" y="360" width="1936" height="1127" key="dock-window-1/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603355051779" />
+    <state x="2535" y="519" width="1616" height="947" maximized="true" key="dock-window-1/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603454058510" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1603355357169">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
