@@ -5,7 +5,7 @@
 <title>Car with fuel</title>
 <script>
 
-var fiat = { 
+let fiat = {
     make: "Fiat",
     model: "500",
     year: 1957, 
@@ -29,11 +29,14 @@ var fiat = {
 	},
 
 	drive: function() {
+        function updateFuel() {
+            fiat.fuel = fiat.fuel - 1;
+        }
 		if (this.started) {
 			if (this.fuel > 0) {
 				console.log(this.make + " " +
 				      this.model + " goes zoom zoom!");
-				this.fuel = this.fuel - 1;
+                    updateFuel();
 			} else {
 				console.log("Uh oh, out of fuel.");
 				this.stop();
@@ -41,6 +44,7 @@ var fiat = {
 		} else {
 			console.log("You need to start the engine first.");
 		}
+
 	},
 
 	addFuel: function(amount) {
