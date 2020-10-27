@@ -3,23 +3,38 @@
 <head>
   <meta charset="utf-8">
   <title> JSON </title>
-  <script>
 
-var fidoString = '{ "name": "Fido", "breed": "Mixed", "weight": 38 }';
-var fido = JSON.parse(fidoString);
-console.log("We have made a dog out of a string! " + fido.name);
-
-
-var fido2 = {
-	name: "Fido",
-	breed: "Mixed",
-	weight: 38
-};
-var fidoString = JSON.stringify(fido2);
-console.log("We made a string from a dog! " + fidoString);
-
-  </script>
 </head>
 <body>
+<div id="myDiv"></div>
+<div id="myDiv2"></div>
 </body>
+<script>
+
+  let fidoString = '{ "name": "Fido", "breed": "Mixed", "weight": 38 }';
+  let fido = JSON.parse(fidoString);
+  console.log("We have made a dog out of a string! " + fido.name);
+
+
+  let fido2 = {
+    name: "Fido",
+    breed: "Mixed",
+    weight: 38
+  };
+  let employee = {
+    name: { first: "Colin",
+      second: "Stephen" },
+    title: "Assistant Lecturer"
+  };
+  fidoString = JSON.stringify(fido2);
+  console.log("We made a string from a dog! " + fidoString);
+  let myString = JSON.stringify(employee);
+  document.getElementById('myDiv').innerHTML = myString;
+  let myObject = JSON.parse(myString);
+  let name = myObject.name;
+  document.getElementById('myDiv2').innerHTML = JSON.stringify(name);
+
+
+
+</script>
 </html>

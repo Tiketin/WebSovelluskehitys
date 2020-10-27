@@ -6,24 +6,35 @@
   <script>
 	window.onload = init;
 	function init() {
-		var map = document.getElementById("map");
+		let map = document.getElementById("map");
 		map.onmousemove = showCoords;
-		var mydiv = document.getElementById("mydiv");
+		let mydiv = document.getElementById("mydiv");
 		mydiv.onclick = addtext;
+        if(document.createElement){
+            let lista = document.createElement('ul');
+            document.getElementById('mydiv').appendChild(lista);
+            for (let i = 0; i < 5; i++) {
+                lista.appendChild(document.createElement('li')).innerHTML = "HOHOO";
+
+            }
+        } else {
+            alert("Looks like you have an old browser!");
+        }
 	}
 	
 	function showCoords(eventObj) {
-		var coords = document.getElementById("coords");
-		var x = eventObj.clientX;
-		var y = eventObj.clientY;
+		let coords = document.getElementById("coords");
+		let x = eventObj.clientX;
+		let y = eventObj.clientY;
 		coords.innerHTML = "Map coordinates: " + x + ", " + y;
 	}
 
 	function addtext(){
 		if (document.createTextNode){
-			var textToAdd = " Div was clicked! "
-			var newNode = document.createTextNode(textToAdd);
+			let textToAdd = " Div was clicked! "
+			let newNode = document.createTextNode(textToAdd);
 			document.getElementById("mydiv").appendChild(newNode);
+
 		} else {
 			alert("Looks like you have an old browser!");
 		}
