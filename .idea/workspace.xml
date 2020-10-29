@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec6ee291-3e80-40ef-8cbb-922c27a60709" name="Default Changelist" comment="Seiska tehty">
+    <list default="true" id="ec6ee291-3e80-40ef-8cbb-922c27a60709" name="Default Changelist" comment="Kasi tehty.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/08 JSON and AJAX/JSON.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/08 JSON and AJAX/JSON.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/08 JSON and AJAX/ajax_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/08 JSON and AJAX/ajax_basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/08 JSON and AJAX/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/08 JSON and AJAX/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/08 JSON and AJAX/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/08 JSON and AJAX/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/09 Single-Page Applications/building_lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/09 Single-Page Applications/building_lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/building_lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/building_lists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/lecture_notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/lecture_notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/simple_dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/labs/09 Single-Page Applications/js/simple_dom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/09 Single-Page Applications/simple_dom.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/09 Single-Page Applications/simple_dom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,9 @@
       <workItem from="1603451302846" duration="5070000" />
       <workItem from="1603456543176" duration="187000" />
       <workItem from="1603710656990" duration="6501000" />
-      <workItem from="1603786281676" duration="6665000" />
+      <workItem from="1603786281676" duration="6784000" />
+      <workItem from="1603793113304" duration="749000" />
+      <workItem from="1603957958014" duration="7327000" />
     </task>
     <task id="LOCAL−00001" summary="Nelosta tossa vähä alottelin">
       <created>1603282097335</created>
@@ -114,7 +117,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1603717105769</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Kasi tehty.">
+      <created>1603792972062</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1603792972062</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +146,8 @@
     <MESSAGE value="Nelonen tehty" />
     <MESSAGE value="Vitonen tehty" />
     <MESSAGE value="Seiska tehty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seiska tehty" />
+    <MESSAGE value="Kasi tehty." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kasi tehty." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1603276511861">
@@ -152,14 +162,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603276476709" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1603717124536">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1603792983379">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603717124536" />
-    <state x="2560" y="540" width="1616" height="947" key="dock-window-1" timestamp="1603786863216">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603792983379" />
+    <state x="2569" y="529" width="1616" height="947" maximized="true" key="dock-window-1" timestamp="1603965161475">
       <screen x="2560" y="540" width="1600" height="860" />
     </state>
-    <state x="2560" y="540" width="1616" height="947" key="dock-window-1/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603786863216" />
+    <state x="2569" y="529" width="1616" height="947" maximized="true" key="dock-window-1/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603965161475" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1603355357169">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

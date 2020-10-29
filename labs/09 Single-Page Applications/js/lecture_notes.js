@@ -1,4 +1,4 @@
-var notes = [];
+let notes = [];
 
 /*
  * displays the 'add' screen if this has been bookmarked by user
@@ -11,8 +11,13 @@ if (window.location.hash == '#add' || notes.length === 0) {
 
 document.querySelector('#addPage button').onclick = function() {
 	console.log('add note');
-	var title = document.querySelector('#addPage input').value;
-	var note = document.querySelector('#addPage textarea').value;
+	let title = document.querySelector('#addPage input').value;
+	let note = document.querySelector('#addPage textarea').value;
+	let newNote = {title: title, note: note};
+	notes.push(newNote);
+	document.querySelector('#addPage input').value = "";
+	document.querySelector('#addPage textarea').value = "";
+	loadList();
 };
 
 /*
@@ -20,20 +25,24 @@ document.querySelector('#addPage button').onclick = function() {
  */ 
 document.querySelector('nav > ul > li:nth-child(1)').onclick = function() {
 	console.log('first link clicked');
+	document.getElementById('editPage').style.display = 'none';
+	document.getElementById('addPage').style.display = 'inherit';
 };
 
 document.querySelector('nav > ul > li:nth-child(2)').onclick = function() {
 	console.log('second link clicked');
+	document.getElementById('addPage').style.display = 'none';
+	document.getElementById('editPage').style.display = 'inherit';
 };
 
 
 function updateNote() {
 	console.log('update note');
-	var title = document.querySelector('#editPage input').value;
-	var note = document.querySelector('#editPage textarea').value;
-	var id = parseInt(document.querySelector('#editPage p').innerHTML, 10);
+	let title = document.querySelector('#editPage input').value;
+	let note = document.querySelector('#editPage textarea').value;
+	let id = parseInt(document.querySelector('#editPage p').innerHTML, 10);
 	console.log(id);
-	var updated = {title: title, note: note};
+	let updated = {title: title, note: note};
 	console.log(updated);
 	notes[id] = {title: title, note: note};
 }
@@ -41,8 +50,8 @@ function updateNote() {
 function display(element) {
 	console.log('display');
 	console.log(element.parentNode.parentNode.id);
-	var details = document.getElementById('details');
-	var id = element.parentNode.parentNode.id;
+	let details = document.getElementById('details');
+	let id = element.parentNode.parentNode.id;
 	document.querySelector('#editPage input').value = notes[id].title;
 	document.querySelector('#editPage textarea').value = notes[id].note;
 	document.querySelector('#editPage p').innerHTML = id;
@@ -50,11 +59,11 @@ function display(element) {
 
 function rem(element) {
 	console.log('remove');
-	var id = element.parentNode.parentNode.id;
+	let id = element.parentNode.parentNode.id;
 	console.log(id);
 	notes.splice(id, 1);
 	loadList();
-	var editId = parseInt(document.querySelector('#editPage p').innerHTML, 10);
+	let editId = parseInt(document.querySelector('#editPage p').innerHTML, 10);
 	console.log('id: '+id);
 	console.log('editId: '+editId);
 	if (id == editId) {
@@ -65,12 +74,16 @@ function rem(element) {
 }
 
 function loadList() {
-	var table = document.getElementById('list');
+	let table = document.getElementById('list');
 	table.innerHTML = '';
-	for (var i=0; i<notes.length; i++) {
-		var row = document.createElement('tr');
+	for (let i=0; i<notes.length; i++) {
+		let row = document.createElement('tr');
 		row.id = i;
 		row.innerHTML = '<td><a onclick="display(this)" href="#">'+notes[i].title+'</a></td><td><a onclick="rem(this)" class="delete" href="#">delete</a></td>';
 		table.appendChild(row);
 	}
 }
+document.querySelector('#editPage input[type="text"]').onkeyup = function() {
+	updateNote();
+	loadList();
+};
