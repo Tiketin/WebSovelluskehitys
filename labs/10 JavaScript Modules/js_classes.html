@@ -17,8 +17,9 @@ function Coffee(roast, ounces) {
 			return "large";
 		}
 	};
+
 	this.order = function() {
-		var msg;
+		let msg;
 		switch (this.getSize()) {
 			case "small":
 			case "medium":
@@ -32,15 +33,66 @@ function Coffee(roast, ounces) {
 		return msg;
 	};
 }
-
-var coffee = new Coffee("House Blend", 12);
+function Tea(type, ounces) {
+    this.type = type;
+    this.ounces = ounces;
+    this.getSize = function () {
+        if (this.ounces === 8) {
+            return "small";
+        } else if (this.ounces === 12) {
+            return "medium";
+        } else if (this.ounces === 16) {
+            return "large";
+        }
+    };
+    this.getSteepTime = function() {
+        if ((this.type == "herbal") || (this.type == "black")){
+            return "5 min";
+        }
+        else if ((this.type == "white") || (this.type == "green")){
+            return "3 min";
+        }
+    };
+    this.order = function() {
+        let msg;
+        switch (this.getSize()) {
+            case "small":
+            case "medium":
+            case "large":
+                msg = "You've ordered a " + this.getSize() + " " + this.type + " tea. Steeptime for this tea is " + this.getSteepTime();
+                break;
+            default:
+                msg = "We don't have a " + this.type + " in that size!";
+                break;
+        }
+        return msg;
+    };
+}
+Tea.prototype.sip = function(){
+    console.log("Hmm, tasty");
+};
+Coffee.prototype.sip = function (){
+    console.log("Hmm, tasty");
+};
+let coffee = new Coffee("House Blend", 12);
 console.log(coffee.order());
 
-var darkRoast = new Coffee("Dark Roast", 16);
+let darkRoast = new Coffee("Dark Roast", 16);
 console.log(darkRoast.order());
+darkRoast.sip();
 
-var specialBlend = new Coffee("Special Blend", 200);
+let specialBlend = new Coffee("Special Blend", 200);
 console.log(specialBlend.order());
+
+let green = new Tea("green", 16);
+console.log(green.order());
+
+let black = new Tea("black", 16);
+console.log(black.order());
+
+let rooibos = new Tea("rooibos", 12);
+console.log(rooibos.order());
+rooibos.sip();
 
 </script>
 </head>
