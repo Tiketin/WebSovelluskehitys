@@ -19,13 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec6ee291-3e80-40ef-8cbb-922c27a60709" name="Default Changelist" comment="Kybä tehty.">
-      <change afterPath="$PROJECT_DIR$/MIT.LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpecRunner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/notes.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Player.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Song.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/notes.js" afterDir="false" />
+    <list default="true" id="ec6ee291-3e80-40ef-8cbb-922c27a60709" name="Default Changelist" comment="11 tehty.">
+      <change afterPath="$PROJECT_DIR$/vue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/teht2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/teht3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/teht4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/teht5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/205CDE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/205CDE.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,9 +54,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitHarjoitus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -95,7 +96,10 @@
       <workItem from="1603957958014" duration="7411000" />
       <workItem from="1604053314903" duration="3488000" />
       <workItem from="1604308203600" duration="78000" />
-      <workItem from="1604308288724" duration="5785000" />
+      <workItem from="1604308288724" duration="5971000" />
+      <workItem from="1604388334166" duration="267000" />
+      <workItem from="1604653893404" duration="100000" />
+      <workItem from="1604654642881" duration="7586000" />
     </task>
     <task id="LOCAL−00001" summary="Nelosta tossa vähä alottelin">
       <created>1603282097335</created>
@@ -145,7 +149,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1604056671849</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="11 tehty.">
+      <created>1604314193811</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1604314193811</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,29 +181,30 @@
     <MESSAGE value="Kasi tehty." />
     <MESSAGE value="Ysi tehty." />
     <MESSAGE value="Kybä tehty." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kybä tehty." />
+    <MESSAGE value="11 tehty." />
+    <option name="LAST_COMMIT_MESSAGE" value="11 tehty." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1603276511861">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1604388554505">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603276511861" />
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1604388554505" />
     <state x="1158" y="598" key="Github.ShareDialog" timestamp="1603277812951">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1158" y="598" key="Github.ShareDialog/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603277812951" />
-    <state x="781" y="345" key="SettingsEditor" timestamp="1603276476709">
+    <state x="781" y="345" key="SettingsEditor" timestamp="1604388353232">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1603276476709" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604056679354">
+    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1604388353232" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604314200163">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1604056679354" />
-    <state x="2605" y="526" width="1616" height="947" maximized="true" key="dock-window-1" timestamp="1604308928111">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1604314200163" />
+    <state x="2605" y="526" width="1616" height="947" maximized="true" key="dock-window-1" timestamp="1604388353760">
       <screen x="2560" y="540" width="1600" height="860" />
     </state>
-    <state x="2605" y="526" width="1616" height="947" maximized="true" key="dock-window-1/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1604308928111" />
+    <state x="2605" y="526" width="1616" height="947" maximized="true" key="dock-window-1/0.0.2560.1400/-1920.360.1920.1040/2560.540.1600.860/-5760.104.3840.2120@0.0.2560.1400" timestamp="1604388353760" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1603355357169">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

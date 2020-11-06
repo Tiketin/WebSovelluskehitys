@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- kehitysversio, jossa hyödyllistä infoa konsolissa -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- tuotantoversio -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+<div id="app">
+    <h2>Todo-lista</h2>
+    <ul class="list-unstyled">
+        <li v-for="(todo, index) in todos">
+            <label>
+                <span v-bind:class="{'done': todo.done}">{{todo.text}}</span>
+                <button v-on:click="removeToDo(index)" class="btn btn-primary btn-sm">Poista</button>
+            </label>
+        </li>
+    </ul>
+    <p>
+        <input type="text" v-model="todoText" placeholder="kirjoita uusi tehtävä tähän" />
+        <button v-on:click="addTodo()" class="btn btn-primary btn-sm">Lisää</button>
+        <button v-on:click="removeFirst()" class="btn btn-primary btn-sm">Poista eka</button>
+
+    </p>
+</div>
+
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            todoText: '',
+            todos: [
+
+            ],
+        },
+        methods: {
+            addTodo: function() {
+                let newTodo = this.todoText.trim();
+                if (!newTodo) {return;}
+                this.todos.push(
+                    {text: newTodo, done: false},
+                );
+                this.todoText = '';
+            },
+            removeToDo: function(index) {
+                this.todos.splice(index, 1)
+            },
+            removeFirst: function () {
+                this.todos.shift()
+            }
+        },
+    });
+</script>
+</body>
+</html>

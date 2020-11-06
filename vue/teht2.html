@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- kehitysversio, jossa hyödyllistä infoa konsolissa -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- tuotantoversio -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+
+<div id="app">
+
+    <span id="näkyy" v-if="seen">Now you see me</span>
+    <span id="ei näy" v-else></span>
+    <button v-on:click="seen = !seen">Näytä/Piilota</button>
+
+</div>
+
+<script>
+    let app = new Vue({
+        el: '#app',
+        data :{
+            seen: true
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- kehitysversio, jossa hyödyllistä infoa konsolissa -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- tuotantoversio -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="message" />
+    <p>Message is {{message}}</p>
+    <p>Message length: {{messageLength}}</p>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Heippa!'
+        },
+        computed: {
+            messageLength: function () {
+                return this.message.length;
+
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

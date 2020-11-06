@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Click me!</title>
+    <style>
+        body, button { margin: 10px; }
+        div { padding: 10px; }
+    </style>
+    <!-- kehitysversio, jossa hyödyllistä infoa konsolissa -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- tuotantoversio -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+<body>
+<div id="app">
+    <button id="-" v-on:click="message -= 1">-</button>
+    <button id="0" v-on:click="message = 0">0</button>
+    <button id="+" v-on:click="message += 1">+</button>
+    <div>The playback speed is {{ message }}</div>
+</div>
+<script>
+    let arvo = 0;
+    let app = new Vue({
+        el: '#app',
+        data :{
+            message: arvo
+        }
+    });
+</script>
+</body>
+</html>
+
